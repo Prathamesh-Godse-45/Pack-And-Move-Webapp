@@ -1,0 +1,127 @@
+@charset "UTF-8";
+*{
+	padding: 0%;
+	margin:0%
+}
+
+body{
+	height: 80vh;
+	justify-content: center;
+	padding: 0%;
+	margin: 0%;
+	
+}
+.main{
+	
+	background-image: url('Moving\ -\ GIF.gif');
+	background-repeat: repeat-x;
+	background-position: center;
+	width: 100%;
+	height: 80vh;
+}
+.main.box{
+	
+	height: 60vh;
+	opacity: 0.4;
+	width: 100%;
+	background-color: black;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	margin: auto;
+	justify-content: space-between;
+	background-color: orange;
+	color: rgb(0, 0, 0);
+}
+.navbar navbar-expand-lg bg-body-tertiary{
+	color: rgb(0, 0, 0);
+	background-color: black;
+}
+
+.imgtxt{
+	align-items: center;
+	position: relative;
+	text-align: center;
+	
+	color: rgb(0, 0, 0);
+	font-size: 200%;
+	font-weight: 1000;	
+	
+}
+
+.glow {
+        color: rgb(255, 255, 255);
+        font-size: 9vw;
+        line-height: 9vw;
+        text-shadow: 0 0 3vw rgb(0, 0, 0);
+        font-size: 5dvh;
+      }
+      .glow {
+        animation: glow 1.2s ease infinite;
+        -moz-animation: glow 1.2s ease infinite;
+        -webkit-animation: glow 1.2s ease infinite;
+      }
+      @keyframes glow {
+        0%,
+        100% {
+          text-shadow: 0 0 1vw rgb(0, 0, 0), 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+          color: #FED128;
+        }
+        50% {
+          text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+          color: #806914;
+        }
+      }
+.collapse navbar-collapse{
+	color: orange;
+}
+.flex-container{
+	size: 20q;
+	align-items:center;
+
+}
+
+/* Your custom CSS */
+.vehicle-selector {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.vehicle-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.vehicle-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.vehicle-btn img {
+    width: 50px; /* Adjust image size */
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.vehicle-btn:focus {
+    outline: none;
+}
+.footer{
+	margin: 2%;
+	padding: 2%;
+	color: blanchedalmond;
+	background-color: rgb(128, 128, 128);
+	size: 40;
+	height: auto;
+}

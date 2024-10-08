@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Selection Form</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('8.jpg');
+            object-fit: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            backdrop-filter: blur(20px);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .form-container {
+            background-color: rgb(107, 56, 39);
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            width: 350px;
+            text-align: center;
+            color: #fff;
+        }
+        
+        h2 {
+            color: rgb(255, 255, 255);
+        }
+        
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+        }
+        
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 14px;
+            color: #333;
+        }
+        
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: rgb(255, 128, 64);
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: rgb(255, 128, 0);
+        }
+    </style>
+</head>
+
+<body>
+   <form action="12.jsp" method="post">
+    <div class="form-container">
+        <h2>City Selection Form</h2>
+
+        <label for="originCity">Select Origin City:</label>
+        <select id="originCity" name="origin">
+            <option value="Andheri">Andheri</option>
+            <option value="Bandra">Bandra</option>
+            <option value="Badalapur">Badalapur</option>
+            <option value="Bhiwandi">Bhiwandi</option>
+            <option value="Borivali">Borivali</option>
+            <option value="CSMT">CSMT</option>
+            <option value="Dader">Dader</option>
+            <option value="Dombiwali">Dombiwali</option>
+            <option value="Diva">Diva</option>
+            <option value="Thane">Thane</option>
+            <option value="Ghatkopar">Ghatkopar</option>
+            <option value="Kurla">Kurla</option>
+            <option value="Kalyan">Kalyan</option>
+            <option value="Neral">Neral</option>
+            <option value="Panvel">Panvel</option>
+            <option value="Vasai">Vasai</option>
+            <option value="Vashi">Vashi</option>
+            <!-- Add more options as needed -->
+        </select>
+
+        <label for="destinationCity">Select Destination City:</label>
+        <select id="destinationCity" name="destination">
+            <option value="Andheri">Andheri</option>
+            <option value="Bandra">Bandra</option>
+            <option value="Badalapur">Badalapur</option>
+            <option value="Bhiwandi">Bhiwandi</option>
+            <option value="Borivali">Borivali</option>
+            <option value="CSMT">CSMT</option>
+            <option value="Dader">Dader</option>
+            <option value="Dombiwali">Dombiwali</option>
+            <option value="Diva">Diva</option>
+            <option value="Thane">Thane</option>
+            <option value="Ghatkopar">Ghatkopar</option>
+            <option value="Kurla">Kurla</option>
+            <option value="Kalyan">Kalyan</option>
+            <option value="Neral">Neral</option>
+            <option value="Panvel">Panvel</option>
+            <option value="Vasai">Vasai</option>
+            <option value="Vashi">Vashi</option>
+            <!-- Add more options as needed -->
+        </select>
+
+        <button type="submit">Get Estimate</button>
+    </div>
+</form>
+
+</body>
+
+</html>
